@@ -1,0 +1,3 @@
+#!/bin/bash
+pip3 install Jinja2 markdown
+npm install less minimist
