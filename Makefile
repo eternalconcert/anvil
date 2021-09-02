@@ -32,7 +32,7 @@ deb:
 	echo "Priority: optional" >> anvil_$(VERSION)/DEBIAN/control
 	echo "Architecture: amd64" >> anvil_$(VERSION)/DEBIAN/control
 	echo "Depends: python3 (>=3.6), python3-dev (>=3.6)" >> anvil_$(VERSION)/DEBIAN/control
-	echo "Description: Always at your service!" >> anvil_$(VERSION)/DEBIAN/control
+	echo "Description: Creating static websites" >> anvil_$(VERSION)/DEBIAN/control
 	echo "Maintainer: Christian Kokoska (info@softcreate.de)" >> anvil_$(VERSION)/DEBIAN/control
 	cat anvil_$(VERSION)/DEBIAN/control
 	dpkg-deb --build anvil_$(VERSION)
